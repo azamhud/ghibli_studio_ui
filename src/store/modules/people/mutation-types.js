@@ -1,0 +1,1 @@
+export const SET_PEOPLELIST = "SET_PEOPLELIST";

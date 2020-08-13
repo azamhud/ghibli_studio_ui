@@ -1,0 +1,3 @@
+export const SET_MOVIELIST = "SET_MOVIELIST";
+
+export const GET_MOVIELIST = "GET_MOVIELIST";

@@ -1,0 +1,56 @@
+.box{
+    background: #e9e1e1;
+    border: 1px solid #e9e1e1;
+    color: #333333;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 90%;
+    margin: 2% auto 0% auto;
+
+    &__title{
+        font-size: 48px;
+    }
+
+    .subbox{
+        margin: 0% 2% 1% 2%;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .content{
+            width: 100%;
+
+            @media (min-width: 768px) {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            
+            @media (min-width: 992px) {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+        &__top{
+            color: #7e7e7e;
+        }
+        &__bot{
+            color: #8f8c6a;
+        }
+    }
+    }
+
+    .minibox{
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            font-size: 22px;
+            margin: 0% 2%;
+    border-bottom: 1px solid #9b8484;
+    cursor: pointer;
+        }
+        &__body{
+            font-size: 16px;
+            border-bottom: 1px solid #9b8484;
+            margin: 0% 2%;
+        }
+    }
+}
